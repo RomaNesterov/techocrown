@@ -1,0 +1,361 @@
+.band {
+    background: black;
+    min-height: 50px;
+    margin: 0 -15px 0 -15px;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+body {
+    background: linear-gradient(to bottom, #EBB500, #f2b20f) !important
+}
+
+.navbar-nav {
+    float: none;
+    text-align: center;
+    background: black;
+}
+
+.navbar-nav li {
+    float: none;
+    display: inline-block;
+}
+
+.navbar-nav li a {
+    color: white;
+    font-size: 20px;
+    transition: 0.2s linear;
+}
+
+.navbar-nav li a:hover {
+    color: black;
+    font-size: 20px;
+}
+
+.content {
+    margin: 0 15px;
+}
+
+.advertising {
+    outline: 2px solid black;
+    box-shadow: black 3px 3px 5px;
+    padding: 5px;
+}
+
+.advertising p {
+    background: #1f34cd;
+    padding: 8px;
+    font-weight: bolder;
+    line-height: 28px;
+    color: white;
+    border-radius: 3px;
+}
+
+.advertising p img {
+    transition: 0.1s linear;
+}
+
+.advertising p img:hover {
+    cursor: pointer;
+    color: white;
+    background: white;
+    border-radius: 16px;
+    transform: rotate(90deg);
+}
+
+.blocklist ul {
+    display: none;
+}
+
+.advertising ul .glyphicon {
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    background: black;
+    color: white;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.advertising h2 {
+    padding: 0 6px;
+}
+
+.blocklist a {
+    color: black;
+    transition: 0.3s linear;
+}
+
+.blocklist a:hover {
+    color: darkred;
+    text-decoration: underline !important;
+}
+
+.commentAuthor quote {
+    font-weight: bolder;
+}
+
+.commentAuthor h5 {
+    font-style: italic;
+}
+
+.commentAuthor li ul li {
+    float: left;
+    margin: 0 3px;
+}
+
+.commentAuthor li ul li {
+    float: left;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.commentAuthor li ul li:nth-child(5) {
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+h5 {
+    text-align: justify;
+}
+
+.advertising ul li {
+    list-style: none;
+    margin-left: -40px;
+    padding: 0 5px;
+
+}
+
+.index {
+    outline: 0px solid darkred;
+    padding: 10px;
+    background: white;
+    margin: 0 0 0 10px;
+}
+.index p{
+    text-indent: 20px !important;
+}
+
+.index div h2{
+    background: #0f0f0f;
+    color: white;
+    margin: 5px 0 0 0 !important;
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+
+.price{
+    background: orange;
+    height: 60px;
+    line-height: 60px;
+    font-size: 26px;
+    font-weight: bolder;
+    border-radius: 4px;
+}
+
+.goods p{
+    font-size: 16px;
+    font-weight: bolder;
+    text-indent: 20px !important;
+}
+
+
+.footer {
+    background: #404040;
+    color: beige;
+    min-height: 200px;
+    padding: 5px 30px;
+    border-right: 1px solid white;
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+.footer p {
+    font-size: 14px !important;
+}
+
+.footer h5 {
+    margin-top: 0 !important;
+}
+
+.footer:nth-child(1) h5 {
+    display: inline-block;
+    line-height: 22px;
+}
+
+.goods {
+    padding: 10px;
+    margin: 0 -15px 0 0;
+    min-height: 480px;
+    background: white;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.form-inline {
+    margin-left: -6px;
+}
+
+.info {
+    line-height: 23px;
+}
+
+.navbar-brand {
+    color: red;
+    font-family: "Arial Black", fantasy;
+    font-style: italic;
+    transition: 0.2s linear;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.amountOfGoods {
+    position: absolute;
+    right: 50px;
+    background: black;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+}
+
+.breadcrumb {
+    margin: 5px -15px;
+    background: linear-gradient(to bottom, #EBB500, #f2b20f) !important;
+    color: black !important;
+}
+
+.breadcrumb li a {
+    color: black !important;
+}
+
+.breadcrumbs > li + li:before {
+    color: #000000 !important;
+    background: red;
+}
+
+.band {
+    background: black;
+    color: white;
+    line-height: 40px;
+}
+
+.info:nth-child(1) {
+    text-align: left !important;
+}
+
+.infoText {
+    text-align: center !important;
+}
+
+.comments img{
+    float: left;
+    margin-right: 20px;
+}
+
+.comments blockquote{
+    margin-left: 220px;
+}
+
+.comments p{
+    box-shadow: #0f0f0f 2px 2px 5px;
+    margin-left: 220px;
+    padding: 10px;
+}
+
+
+/*Медиа запросы*/
+
+@media (max-width: 992px) {
+
+    .goods {
+        margin: 0 -30px 0 -30px;
+    }
+
+    .advertising, .index {
+        margin: 0 -15px 0 -15px;
+    }
+
+    .navbar-nav li {
+        display: block;
+    }
+
+    .breadcrumb {
+        margin: 10px -30px;
+    }
+
+    .footer {
+        border-bottom: 1px solid white;
+    }
+
+    .footer {
+        border-right: 0px solid white !important;
+    }
+
+    .footer:nth-child(3) {
+        border-bottom: 0px solid white !important;
+    }
+
+    .infoText h4 {
+        text-align: left !important;
+    }
+
+    .comments img{
+        float: none;
+        margin-right: 0;
+        text-align: justify !important;
+    }
+
+    .comments img{
+        display:block;
+        margin:auto;
+    }
+
+    .comments blockquote{
+        margin-left: 0;
+    }
+
+    .comments p{
+        box-shadow: #0f0f0f 2px 2px 5px;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+
+    .form{
+      display: inline-block;
+     }
+
+}
+
+@media (max-width: 760px) {
+
+    .form{
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+
+
